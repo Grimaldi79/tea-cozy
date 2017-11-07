@@ -1,0 +1,11 @@
+body{
+  background-color: black;
+}
+
+.header{
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
