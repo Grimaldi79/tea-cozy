@@ -4,12 +4,12 @@ font-size: 22px;
 background-color: black;
 color: seashell;
 opacity: 0.9;
-align-items: center;
 }
 header{
 
 }
 .header{
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,3 +33,26 @@ nav span{
 nav a{
   color: seashell;
 }
+
+.main{
+    padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-mission{
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+  height: 700px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+  .mission-text{
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+  }
