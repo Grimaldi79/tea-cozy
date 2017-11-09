@@ -1,0 +1,87 @@
+body{
+font-family: Helvetica;
+font-size: 22px;
+background-color: black;
+color: seashell;
+opacity: 0.9;
+}
+header{
+
+}
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 69px;
+}
+.logo img{
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+}
+nav span{
+  flex-wrap: wrap;
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0 15px;
+}
+
+nav a{
+  color: seashell;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-mission{
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+  height: 700px;
+  display:flex;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .mission-text{
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+  }
+
+  .head-merch{
+    display: block; 
+  }
+
+
+  .tea-month{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: : 10px 0;
+  }
+
+  .tea-month img{
+    height: 200px;
+    width: 300px;
+  }
+.merch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

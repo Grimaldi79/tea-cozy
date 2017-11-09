@@ -25,6 +25,7 @@ header{
   padding-left: 10px;
 }
 nav span{
+  flex-wrap: wrap;
   display: inline-block;
   text-decoration: underline;
   margin: 0 15px;
@@ -33,11 +34,18 @@ nav span{
 nav a{
   color: seashell;
 }
+div{
+  display: block;
+}
 
 .main{
-    padding-top: 70px;
-  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  margin: auto;
   justify-content: center;
+  text-align: center;
+  margin:auto;
+  display: flex;
 }
 
 .our-mission{
@@ -45,14 +53,39 @@ nav a{
   padding-top: 70px;
   height: 700px;
   display:flex;
-  flex-direction: column;
+  width: 1200px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   }
-
 
   .mission-text{
     background-color: black;
     width: 1200px;
     text-align: center;
   }
+
+  .store{
+    width: 1000px;
+    height: 700px;
+    padding-top: 70px;
+  }
+
+  .merch-display{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.merch-display img{
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+  }
+.merch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
