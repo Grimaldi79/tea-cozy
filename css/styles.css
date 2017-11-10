@@ -5,9 +5,7 @@ background-color: black;
 color: seashell;
 opacity: 0.9;
 }
-header{
-
-}
+/*-- header --*/
 .header{
   background-color: black;
   display: flex;
@@ -38,17 +36,18 @@ div{
   display: block;
 }
 
-.main{
-  flex-wrap: wrap;
+#main{
   padding-top: 70px;
   margin: auto;
   justify-content: center;
   text-align: center;
-  margin:auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.our-mission{
+
+ /*-- Mission --*/
+#our-mission{
   background-image: url(../images/img-mission-background.jpg);
   padding-top: 70px;
   height: 700px;
@@ -59,33 +58,76 @@ div{
   align-items: center;
   flex-direction: column;
   }
-
   .mission-text{
     background-color: black;
     width: 1200px;
     text-align: center;
   }
 
-  .store{
-    width: 1000px;
-    height: 700px;
-    padding-top: 70px;
+/*-- Merch --*/
+#store{
+  height: 700px;
+  padding-top: 30px;
+  padding-bottom: 70px;
   }
 
   .merch-display{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 500px;
+    width: 1000px;
   }
 
 .merch-display img{
     height: 200px;
     width: 300px;
-    margin-top: 10px;
+
   }
 .merch{
+  display: block;
+  text-align: center;
+  padding: 0 15px;
+}
+
+/*-- Locations --*/
+#locations{
+  background-image: url(../images/img-locations-background.jpg);
+  background-position: top;
+  height: 500px;
+  display: block;
+}
+.locations h2{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.local-display{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.local{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 10px;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px 0 20px;
+  padding-bottom: 20px;
+}
+ /*-- Contact --*/
+ .contact{
+   height: 200px;
+   text-align: center;
+ }
+
+/*-- footer --*/
+footer{
+  margin-left: 20px;
 }
